@@ -10,11 +10,11 @@ Feel free to spread the word of this redesign.
 
 ## TODO LIST (Navigation)
 
-1) Setup Basic Example Of Navigation (template)
+- Setup Basic Example Of Navigation (template)
   - Setup Topbar
   - Setup Sidebar
-2) Style Template
-3)  Setup Correct Functionality
-4) Plan Next Step
+- Style Template
+-  Setup Correct Functionality
+- Plan Next Step
 
 ![alt-text](https://lolzombie.com/wp-content/uploads/2013/06/solo-chewie.jpg)
