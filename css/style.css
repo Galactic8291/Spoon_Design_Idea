@@ -21,6 +21,7 @@ body::after {
 
 nav a {
   display: block;
+  padding: 1em 5%;
 }
 
 a {
@@ -196,6 +197,10 @@ input[type="search"]::-webkit-search-results-decoration {
   background-position: -64px 0;
 }
 
+.side-bar > ul > li.notifications > a::before {
+  background-position: -80px 0;
+}
+
 .side-bar .side-bar-label {
   display: block;
   padding: 1em 18px;
@@ -206,8 +211,45 @@ input[type="search"]::-webkit-search-results-decoration {
   color: #646a6f;
 }
 
+.side-bar .notifications > a {
+  box-shadow: inset 3px 0 0 #1784c7;
+  background-color: #33383e;
+}
 
+.side-bar .count {
+  position: absolute;
+  background-color: #ff7e66;
+  color: #ffffff;
+  height: auto;
+  width: auto;
+  border-radius: .25em;
+  padding: .2em .4em;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  right: 18px;
+  left: auto;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
+.children ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background-color: #1c1f22;
+  width: 100%;
+  z-index: 1;
+}
+
+.children ul a {
+  padding-left: 18px;
+  text-align: left;
+}
 
 
 
