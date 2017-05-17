@@ -131,3 +131,54 @@ input[type="search"]::-webkit-search-results-decoration {
 .cd-search input:-ms-input-placeholder {
   color: #777c81;
 }
+
+/* Main Content */
+.main-content .content-wrapper {
+  margin-left: 200px;
+  padding: 55px 5% 3em;
+}
+
+.main-content .content-wrapper h1 {
+  text-align: center;
+  padding: 4em 0;
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.side-bar {
+  position: relative;
+  float: left;
+  z-index: 1;
+  left: 0;
+  top: auto;
+  width: 200px;
+  min-height: 100vh;
+  padding: 55px 0 0;
+  overflow: visible;
+  background-color: #2c3136;
+  transition: opacity 0.2s 0s, visibility 0s 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
