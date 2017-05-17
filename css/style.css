@@ -19,6 +19,10 @@ body::after {
   display: table;
 }
 
+nav a {
+  display: block;
+}
+
 a {
   color: #1784c7;
   text-decoration: none;
@@ -161,6 +165,35 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .side-bar > ul {
   padding: 0.6em 0;
+}
+
+.side-bar a {
+  font-size: 1.2rem;
+  position: relative;
+  color: #ffffff;
+}
+
+.side-bar > ul > li > a {
+  padding: 1em 1em 1em 42px;
+  text-align: left;
+  border-bottom: none;
+}
+
+.side-bar > ul > li > a::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 18px;
+  bottom: auto;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  background: url(../img/icons.svg) no-repeat 0 0;
+}
+
+.side-bar > ul > li.overview > a::before {
+  background-position: -64px 0;
 }
 
 .side-bar .side-bar-label {
