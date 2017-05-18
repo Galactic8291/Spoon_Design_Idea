@@ -7,16 +7,19 @@ Also this has been delayed previously twice now due to unforeseen life problems.
 
 Feel free to spread the word of this redesign.
 
+Rule: DO NOT GET AHEAD OF YOURSELF
 
 ## TODO LIST
 
 - ~~Setup Basic Example Of Navigation (template)~~
   - ~~Setup Topbar~~
   - ~~Setup Sidebar~~
-- Change Development Process
-  - Setup Webpack
-  - Setup NPM Scripts
-- Update Files To New Setup
+- Setup Features
+  - Sidbar Menu Icon
+  - Articles
+  - Social Media
+  - Home Page
+  - Search
 - Design The Template
 - Setup Correct Functionality
 - Plan Next Step
