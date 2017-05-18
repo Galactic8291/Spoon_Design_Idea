@@ -14,6 +14,8 @@ Rule: DO NOT GET AHEAD OF YOURSELF
 - ~~Setup Basic Example Of Navigation (template)~~
   - ~~Setup Topbar~~
   - ~~Setup Sidebar~~
+- Seperate CSS into cleaner parts
+- Mobile
 - Setup Features
   - Sidbar Menu Icon
   - Articles
