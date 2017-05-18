@@ -14,6 +14,8 @@ Feel free to spread the word of this redesign.
   - ~~Setup Topbar~~
   - ~~Setup Sidebar~~
 - Change Development Process
+  - Setup Webpack
+  - Setup NPM Scripts
 - Update Files To New Setup
 - Design The Template
 - Setup Correct Functionality
