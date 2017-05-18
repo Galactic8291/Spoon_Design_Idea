@@ -8,7 +8,7 @@ Also this has been delayed previously twice now due to unforeseen life problems.
 Feel free to spread the word of this redesign.
 
 
-## TODO LIST (Navigation)
+## TODO LIST
 
 - ~~Setup Basic Example Of Navigation (template)~~
   - ~~Setup Topbar~~
