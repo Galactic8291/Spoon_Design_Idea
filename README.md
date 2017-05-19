@@ -1,29 +1,6 @@
 # A New Spoon
 
-This project is step one of a long saga of projects. The main goal is to redesign SpoonUniversity into a clearer format and cooler setup.
-Unfortunately it took forever to figure out the kinks and what-ifs so no one really knows about it
+This branch is dedicated to the seperation of css into smaller files.
+Development enhancement to improve readability and understanding
 
-Also this has been delayed previously twice now due to unforeseen life problems.
-
-Feel free to spread the word of this redesign.
-
-Rule: DO NOT GET AHEAD OF YOURSELF
-
-## TODO LIST
-
-- ~~Setup Basic Example Of Navigation (template)~~
-  - ~~Setup Topbar~~
-  - ~~Setup Sidebar~~
-- Seperate CSS into cleaner parts
-- Mobile
-- Setup Features
-  - Sidbar Menu Icon
-  - Articles
-  - Social Media
-  - Home Page
-  - Search
-- Design The Template
-- Setup Correct Functionality
-- Plan Next Step
-
-![alt-text](https://lolzombie.com/wp-content/uploads/2013/06/solo-chewie.jpg)
+![alt-text](https://s-media-cache-ak0.pinimg.com/736x/36/d6/57/36d6571f41d044560b6c64b78e35e867.jpg)
