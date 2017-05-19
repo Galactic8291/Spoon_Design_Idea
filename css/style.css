@@ -41,19 +41,6 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-/* Main Content */
-.main-content .content-wrapper {
-  margin-left: 200px;
-  padding: 55px 5% 3em;
-}
-
-.main-content .content-wrapper h1 {
-  text-align: center;
-  padding: 4em 0;
-  font-size: 3.2rem;
-  font-weight: 300;
-}
-
 .side-bar {
   position: relative;
   float: left;
