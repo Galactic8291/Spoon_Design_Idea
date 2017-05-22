@@ -97,7 +97,7 @@
   background: white;
 }
 
-.menu-button.nav-is-visible span::before {
+.menu-button.nav-is-visible #trigger::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
   -moz-transform: translateX(4px) translateY(-3px) rotate(45deg);
   -ms-transform: translateX(4px) translateY(-3px) rotate(45deg);
@@ -105,7 +105,7 @@
   transform: translateX(4px) translateY(-3px) rotate(45deg);
 }
 
-.menu-button.nav-is-visible span::after {
+.menu-button.nav-is-visible #trigger::after {
   -webkit-transform: translateX(4px) translateY(2px) rotate(-45deg);
   -moz-transform: translateX(4px) translateY(2px) rotate(-45deg);
   -ms-transform: translateX(4px) translateY(2px) rotate(-45deg);
