@@ -8,6 +8,8 @@
     <link rel='stylesheet' href='css/style.css'>
     <link rel='stylesheet' href='css/header.css'>
     <link rel='stylesheet' href='css/home_page.css'>
+    <link rel='stylesheet' href='css/navigation.css'>
+    <link rel='stylesheet' href='css/search.css'>
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
@@ -17,41 +19,35 @@
   <body>
     <header class='top-bar'>
       <a href='#' class='logo'><img src='img/logo.svg' alt='logo'></a>
-      <!--
-      -->
-
       <div class='menu-button'>Menu<span id='trigger'></span></div>
     </header>
 
     <main class='main-content'>
-      <!-- <nav class='side-bar'>
-        <ul>
-          <div class='search-bar'>
-            <form action='#'>
-              <input type='search' placeholder='Search...'>
-            </form>
-          </div>
+    <nav class='navigation'>
+      <div class='search-bar'>
+        <form action='#'>
+          <input type='search' placeholder='Search...'>
+        </form>
+      </div>
 
-          <li class='side-bar-label'>Menu</li>
-          <li class='overview'><a href='#'>Overview</a></li>
+      <ul>
+        <li class='navigation-label'>Menu</li>
+        <li class='overview'><a href='#'>Overview</a></li>
+        <li class='children notifications'>
+          <a href='#'>Notifications <span class='count'>3</span></a>
+          <ul>
+            <li><a href='#'>All Notifications</a></li>
+            <li><a href='#'>Friends</a></li>
+            <li><a href='#'>Other</a></li>
+          </ul>
+        </li>
+        <li class='comments'><a href='#'>Comments</a></li>
+      </ul>
+    </nav>
 
-          <li class='children notifications'>
-            <a href='#'>Notifications <span class='count'>3</span></a>
-
-            <ul>
-              <li><a href='#'>All Notifications</a></li>
-              <li><a href='#'>Friends</a></li>
-              <li><a href='#'>Other</a></li>
-            </ul>
-          </li>
-
-          <li class='comments'><a href='#'>Comments</a></li>
-        </ul>
-      </nav> -->
-
-      <section class='content-wrapper'>
-        <h1>Template Navigation</h1>
-      </section>
+    <section class='content-wrapper'>
+      <h1>Template Navigation</h1>
+    </section>
     </main>
   </body>
 
