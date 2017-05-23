@@ -18,6 +18,10 @@ Rule 2): DO NOT FORGET TO UPDATE TASK
   - ~~Setup Sidebar~~
 - ~~Seperate CSS into cleaner parts~~
 - Setup Mobile Experience
+  - ~~Header~~
+  - ~~Main Content~~
+  - Navigation
+  - Search
 - Setup Features
   - Sidbar Menu Icon
   - Articles
