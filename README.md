@@ -25,6 +25,9 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Navigation~~
   - ~~Search~~
 - Setup Responsive Experience
+  - Header
+  - Main Content
+  - Sidebar
 - Setup Features
   - Sidbar Menu Icon
   - Articles
