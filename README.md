@@ -7,7 +7,9 @@ Also this has been delayed previously twice now due to unforeseen life problems.
 
 Feel free to spread the word of this redesign.
 
-Rule: DO NOT GET AHEAD OF YOURSELF
+Rule 1): DO NOT GET AHEAD OF YOURSELF
+
+Rule 2): DO NOT FORGET TO UPDATE TASK
 
 ## TODO LIST
 
