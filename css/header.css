@@ -113,3 +113,18 @@
   transform: translateX(4px) translateY(2px) rotate(-45deg);
 }
 
+@media only screen and (min-width: 768px) {
+  .top-bar {
+    position: fixed;
+    height: 55px;
+  }
+
+  .logo {
+    margin: 16px 0 0 36px;
+  }
+
+  #trigger {
+    display: none;
+  }
+}
+
