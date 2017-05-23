@@ -14,4 +14,30 @@
   font-size: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .main-content .content-wrapper {
+    margin-left: 100px;
+    padding-top: 55px;
+  }
+
+  .main-content .content-wrapper h1 {
+    padding: 4em 0;
+    font-size: 3.2rem;
+    font-weight: 300;
+  }
+
+  .main-content::before {
+    content: 'tablet';
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .main-content .content-wrapper {
+    margin-left: 200px;
+  }
+
+  .main-content::before {
+    content: 'desktop';
+  }
+}
 
