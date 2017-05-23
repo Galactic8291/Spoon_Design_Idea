@@ -1,10 +1,22 @@
 (function($) {
-  const menuButton = $('.menu-button');
-  const trigger = $('#trigger');
+  const menuButton = $('.menu-button')
+  const navigation = $('.navigation')
+  const trigger = $('#trigger')
 
-  trigger.click((event) => {
+  trigger.click(event => {
     event.preventDefault();
+    $([navigation, menuButton]).toggleClass('nav-is-visible')
+  })
 
-    $([menuButton, trigger]).toggleClass('nav-is-visible');
-  });
-})(jQuery);
+  $('.children').click(event => {
+    event.preventDefault()
+    let item = $(event.target)
+
+    if(item.parent('li').hasClass('selected')) {
+      item.parent('li').removeClass('selected')
+    } else {
+      item.parent('li').addClass('selected')
+    }
+  })
+})(jQuery)
+
