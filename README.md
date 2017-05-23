@@ -11,6 +11,8 @@ Rule 1): DO NOT GET AHEAD OF YOURSELF
 
 Rule 2): DO NOT FORGET TO UPDATE TASK
 
+Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
+
 ## TODO LIST
 
 - ~~Setup Basic Example Of Navigation (template)~~
@@ -20,8 +22,9 @@ Rule 2): DO NOT FORGET TO UPDATE TASK
 - Setup Mobile Experience
   - ~~Header~~
   - ~~Main Content~~
-  - Navigation
-  - Search
+  - ~~Navigation~~
+  - ~~Search~~
+- Setup Responsive Experience
 - Setup Features
   - Sidbar Menu Icon
   - Articles
