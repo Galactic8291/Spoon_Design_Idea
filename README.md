@@ -19,7 +19,7 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Setup Topbar~~
   - ~~Setup Sidebar~~
 - ~~Seperate CSS into cleaner parts~~
-- Setup Mobile Experience
+- ~~Setup Mobile Experience~~
   - ~~Header~~
   - ~~Main Content~~
   - ~~Navigation~~
