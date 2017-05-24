@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='css/header.css'>
     <link rel='stylesheet' href='css/home_page.css'>
     <link rel='stylesheet' href='css/navigation.css'>
+    <link rel='stylesheet' href='css/responsive_navigation.css'>
     <link rel='stylesheet' href='css/search.css'>
 
     <!-- Google Fonts -->
@@ -28,26 +29,25 @@
     </header>
 
     <main class='main-content'>
-    <nav class='navigation'>
+      <nav class='navigation'>
+        <ul>
+          <li class='navigation-label'>Menu</li>
+          <li class='overview'><a href='#'>Overview</a></li>
+          <li class='children notifications active'>
+            <a href='#'>Notifications <span class='count'>3</span></a>
+            <ul>
+              <li><a href='#'>All Notifications</a></li>
+              <li><a href='#'>Friends</a></li>
+              <li><a href='#'>Other</a></li>
+            </ul>
+          </li>
+          <li class='comments'><a href='#'>Comments</a></li>
+        </ul>
+      </nav>
 
-      <ul>
-        <li class='navigation-label'>Menu</li>
-        <li class='overview'><a href='#'>Overview</a></li>
-        <li class='children notifications'>
-          <a href='#'>Notifications <span class='count'>3</span></a>
-          <ul>
-            <li><a href='#'>All Notifications</a></li>
-            <li><a href='#'>Friends</a></li>
-            <li><a href='#'>Other</a></li>
-          </ul>
-        </li>
-        <li class='comments'><a href='#'>Comments</a></li>
-      </ul>
-    </nav>
-
-    <section class='content-wrapper'>
-      <h1>Template Navigation</h1>
-    </section>
+      <section class='content-wrapper'>
+        <h1>Template Navigation</h1>
+      </section>
     </main>
   </body>
 
