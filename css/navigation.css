@@ -109,6 +109,12 @@
   text-align: center;
 }
 
+.navigation .children.hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
 .children ul {
   position: relative;
   width: 100%;
@@ -130,6 +136,10 @@
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   background: url(../img/arrow.svg);
+}
+
+.children ul a:hover {
+  color: #1784c7;
 }
 
 .children.selected > ul {

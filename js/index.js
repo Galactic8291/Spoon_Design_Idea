@@ -36,14 +36,32 @@
   })
 
   $('.children').click(event => {
-    event.preventDefault()
-    let item = $(event.target)
+    const view = checkViewport()
 
-    if(item.parent('li').hasClass('selected')) {
-      item.parent('li').removeClass('selected')
-    } else {
-      item.parent('li').addClass('selected')
+    if(view === 'mobile' || view === 'tablet') {
+      event.preventDefault()
+      let item = $(event.target)
+
+      if(item.parent('li').hasClass('selected')) {
+        item.parent('li').removeClass('selected')
+      } else {
+        item.parent('li').addClass('selected')
+      }
     }
   })
+
+  navigation.children('ul').menuAim({
+    activate: function(row) {
+      $(row).addClass('hover')
+    },
+    deactivate: function(row) {
+      $(row).removeClass('hover')
+    },
+    exitMenu: function() {
+      navigation.find('.hover').removeClass('hover')
+      return true
+    },
+    submenuSelector: ".children"
+  });
 })(jQuery)
 
