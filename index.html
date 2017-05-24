@@ -32,8 +32,17 @@
       <nav class='navigation'>
         <ul>
           <li class='navigation-label'>Menu</li>
-          <li class='overview'><a href='#'>Overview</a></li>
-          <li class='children notifications active'>
+          <li class='overview children'>
+            <a href='#'>Overview</a>
+
+            <ul>
+              <li><a href='a'>Category 1</a></li>
+              <li><a href='a'>Category 2</a></li>
+              <li><a href='a'>Category 3</a></li>
+            </ul>
+          </li>
+
+          <li class='notifications children active'>
             <a href='#'>Notifications <span class='count'>3</span></a>
             <ul>
               <li><a href='#'>All Notifications</a></li>
@@ -41,7 +50,15 @@
               <li><a href='#'>Other</a></li>
             </ul>
           </li>
-          <li class='comments'><a href='#'>Comments</a></li>
+
+          <li class='comments children'>
+            <a href='#'>Comments</a>
+            <ul>
+              <li><a href='#'>Comment 1</a></li>
+              <li><a href='#'>Comment 2</a></li>
+              <li><a href='#'>Comment 3</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
@@ -53,6 +70,7 @@
 
   <footer>
     <script src='js/jquery-3.2.1.min.js'></script>
+    <script src='js/jquery-menu-aim.js'></script>
     <script src='js/index.js'></script>
   </footer>
 </html>
