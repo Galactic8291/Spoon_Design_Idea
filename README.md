@@ -28,9 +28,9 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Header~~
   - ~~Main Content~~
   - ~~Sidebar~~
-  - Search
+  - ~~Search~~
 - Setup Features
-  - Sidbar Menu Icon
+  - Additional Dropdowns
   - Articles
   - Social Media
   - Home Page
