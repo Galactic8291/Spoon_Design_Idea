@@ -24,13 +24,13 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Main Content~~
   - ~~Navigation~~
   - ~~Search~~
-- Setup Responsive Experience
+- ~~Setup Responsive Experience~~
   - ~~Header~~
   - ~~Main Content~~
   - ~~Sidebar~~
   - ~~Search~~
 - Setup Features
-  - Additional Dropdowns
+  - ~~Additional Dropdowns~~
   - Articles
   - Social Media
   - Home Page
