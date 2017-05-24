@@ -7,7 +7,11 @@ Also this has been delayed previously twice now due to unforeseen life problems.
 
 Feel free to spread the word of this redesign.
 
-Rule: DO NOT GET AHEAD OF YOURSELF
+Rule 1): DO NOT GET AHEAD OF YOURSELF
+
+Rule 2): DO NOT FORGET TO UPDATE TASK
+
+Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
 
 ## TODO LIST
 
@@ -16,8 +20,17 @@ Rule: DO NOT GET AHEAD OF YOURSELF
   - ~~Setup Sidebar~~
 - ~~Seperate CSS into cleaner parts~~
 - Setup Mobile Experience
+  - ~~Header~~
+  - ~~Main Content~~
+  - ~~Navigation~~
+  - ~~Search~~
+- Setup Responsive Experience
+  - ~~Header~~
+  - ~~Main Content~~
+  - ~~Sidebar~~
+  - ~~Search~~
 - Setup Features
-  - Sidbar Menu Icon
+  - Additional Dropdowns
   - Articles
   - Social Media
   - Home Page
