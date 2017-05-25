@@ -31,13 +31,12 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Search~~
 - Setup Features
   - ~~Additional Dropdowns~~
-  - Multiple Pages
+  - ~~Multiple Pages~~
+  - Home Page
   - Articles
   - Social Media
-  - Home Page
   - Search
-- Design The Template
-- Setup Correct Functionality
+- Setup Correct Colorscheme
 - Plan Next Step
 
 ![alt-text](https://lolzombie.com/wp-content/uploads/2013/06/solo-chewie.jpg)
