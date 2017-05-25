@@ -49,6 +49,12 @@
     transform: translateX(-50%);
   }
 
+  .navigation .home.active > a {
+    /* current page */
+    box-shadow: inset 3px 0 0 #683399;
+    background-color: #33383e;
+  }
+
   .navigation .spoon_university.active  > a {
     /* current page */
     box-shadow: inset 3px 0 0 #34c149;
