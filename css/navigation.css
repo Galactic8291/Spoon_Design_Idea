@@ -65,15 +65,15 @@
   background: url(../img/icons.svg) no-repeat 0 0;
 }
 
-.navigation > ul > li.overview > a::before {
+.navigation > ul > li.spoon_university > a::before {
   background-position: -64px 0;
 }
 
-.navigation > ul > li.notifications > a::before {
+.navigation > ul > li.healthier > a::before {
   background-position: -80px 0;
 }
 
-.navigation > ul > li.comments > a::before {
+.navigation > ul > li.company > a::before {
   background-position: -48px 0;
 }
 
