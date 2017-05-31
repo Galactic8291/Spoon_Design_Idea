@@ -62,6 +62,8 @@
       return true
     },
     submenuSelector: ".children"
-  });
+  })
+
+  moveSearch()
 })(jQuery)
 

@@ -5,25 +5,36 @@
 }
 
 .main-content .content-wrapper {
-  padding: 45px 5% 3em;
+  padding: 45px 4% 3em;
 }
 
-.main-content .content-wrapper h1 {
-  text-align: center;
-  padding: 3em 0;
-  font-size: 2rem;
+.trending {
+  margin-top: 10px;
+}
+
+.title-card {
+  line-height: 2;
+  border-bottom: 1px solid #ecf0f1;
+  font-family: system-ui;
+}
+
+.title-card .title {
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.title-card .more {
+  float: right;
+  padding-right: 10px;
+  color: #95a5a6;
 }
 
 @media only screen and (min-width: 768px) {
   .main-content .content-wrapper {
     margin-left: 100px;
     padding-top: 55px;
-  }
-
-  .main-content .content-wrapper h1 {
-    padding: 4em 0;
-    font-size: 3.2rem;
-    font-weight: 300;
   }
 
   .main-content::before {
