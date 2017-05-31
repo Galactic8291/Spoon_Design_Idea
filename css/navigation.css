@@ -109,12 +109,6 @@
   text-align: center;
 }
 
-.navigation .children.hover > ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
 .children ul {
   position: relative;
   width: 100%;

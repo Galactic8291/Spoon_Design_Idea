@@ -35,7 +35,7 @@
     $([navigation, menuButton]).toggleClass('nav-is-visible')
   })
 
-  $('.children').click(event => {
+  $('.children > a').click(event => {
     const view = checkViewport()
 
     if(view === 'mobile' || view === 'tablet') {
@@ -45,6 +45,7 @@
       if(item.parent('li').hasClass('selected')) {
         item.parent('li').removeClass('selected')
       } else {
+        navigation.find('.children.selected').removeClass('selected')
         item.parent('li').addClass('selected')
       }
     }
