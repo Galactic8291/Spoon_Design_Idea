@@ -1,0 +1,136 @@
+/* Card Styling */
+.card {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: #ffffff;
+  width: 98%;
+  height: 320px;
+  margin: 15px auto;
+  font-family: 'Varela Round';
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.card .card-thumbnail {
+  background: #000000;
+  height: 320px;
+  overflow: hidden;
+}
+
+.card .card-thumbnail::before {
+  content: '';
+  height: 180px;
+  width: 100%;
+  display: block;
+}
+
+.card .card-thumbnail .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  padding: 11px 0 0;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card .card-thumbnail .date .day {
+  font-size: 18px;
+}
+
+.card .card-thumbnail .date .month {
+  font-size: 14px;
+}
+
+.card .card-content {
+  position: absolute;
+  bottom: 0;
+  background: #ffffff;
+  padding: 20px 30px 30px 30px;
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+
+.card .card-content .category {
+  position: absolute;
+  top: -36px;
+  left: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card .card-content .title {
+  margin: 0;
+  padding: 0 0 5px;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card .card-content .subtitle {
+  margin: 0;
+  padding: 0 0 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card .card-content .description {
+  display: none;
+  max-height: 0px;
+  font-size: 14px;
+  line-height: 1.8em;
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card .card-content .card-information {
+  color: #999999;
+}
+
+.card-content .card-information .author {
+  font-size: 12px;
+}
+
+.card .card-content .card-information a {
+  font-size: 15px;
+  text-decoration: underline;
+  color: #8a8a8a;
+  font-weight: 700;
+}
+
+/* Card Types */
+.spoon-university .date, .spoon-university .category {
+  background-color: #34c149;
+}
+
+.spoon-university .subtitle {
+  color: #579B7F;
+}
+
+/* Card Story Images */
+.starbucks .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/098/322/medium/starbucksspoon.jpg?1485287193) no-repeat;
+  background-position: -46px -43px;
+  background-size: 385px;
+}
+
