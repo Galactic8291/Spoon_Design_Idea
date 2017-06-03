@@ -118,19 +118,69 @@
   font-weight: 700;
 }
 
+.card .card-content .card-information a:last-child {
+  font-size: 12px;
+}
+
 /* Card Types */
 .spoon-university .date, .spoon-university .category {
   background-color: #34c149;
 }
 
 .spoon-university .subtitle {
-  color: #579B7F;
+  color: #579b7f;
+}
+
+.healthier .date, .healthier .category {
+  background-color: #fc8f17;
+}
+
+.healthier .subtitle {
+  color: #e67e22;
 }
 
 /* Card Story Images */
 .starbucks .card-thumbnail::before {
   background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/098/322/medium/starbucksspoon.jpg?1485287193) no-repeat;
   background-position: -46px -43px;
+  background-size: 385px;
+}
+
+.oreo-pie .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/161/324/medium/IMG_3108.jpg?1493839204) no-repeat;
+  background-position: -1px -76px;
+  background-size: 340px;
+}
+
+.oreo-pie .card-content {
+  padding-top: 23px;
+}
+
+.oreo-pie .card-content .title {
+  font-size: 18px;
+}
+
+.natural-mosquito .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/163/107/large/IMG_2928_%281%29.jpg?1495311266) no-repeat;
+  background-position: -25px -48px;
+  background-size: 385px;
+}
+
+.grab-n-go .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/159/682/medium/DSC_9948_edit.jpg?1492997475) no-repeat;
+  background-position: -21px -58px;
+  background-size: 360px;
+}
+
+.motivation-alive .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/163/881/large/IMG_5239.jpg?1495907590) no-repeat;
+  background-position: 0px -29px;
+  background-size: 340px;
+}
+
+.workout-results .card-thumbnail::before {
+  background: url(https://s3.amazonaws.com/secretsaucefiles/photos/images/000/140/888/large/Screen_Shot_2017-02-22_at_4.35.50_PM.png?1488389979) no-repeat;
+  background-position: -28px -43px;
   background-size: 385px;
 }
 
