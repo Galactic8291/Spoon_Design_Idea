@@ -94,6 +94,10 @@
     background-color: #33383e;
   }
 
+  .navigation .action-button a {
+    margin: 1em 10% 0;
+  }
+
   .children {
     position: relative;
   }
@@ -165,6 +169,10 @@
     right: 18px;
     left: auto;
     box-shadow: none;
+  }
+
+  .navigation .action-button a {
+    margin: 0 18px;
   }
 
   .children > ul {
