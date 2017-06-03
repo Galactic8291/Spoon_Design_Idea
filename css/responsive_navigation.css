@@ -1,7 +1,7 @@
 /* Responsive navigation */
 @media only screen and (min-width: 768px) {
   .navigation {
-    position: relative;
+    position: fixed;
     float: left;
     top: auto;
     width: 110px;

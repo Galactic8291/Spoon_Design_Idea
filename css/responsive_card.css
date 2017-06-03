@@ -1,0 +1,133 @@
+/* Responsive Styles for cards */
+@media only screen and (min-width: 768px) {
+  .title-card .title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .title-card .more {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+
+  .card {
+    width: 45%;
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .card-content {
+    height: 210px;
+  }
+
+  .card .card-information .author a {
+    font-size: 18px;
+  }
+
+  .card .card-information .author a:last-of-type {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  .card .card-information {
+    margin-top: 16px;
+  }
+
+  .starbucks .card-information {
+    margin: 0px;
+  }
+
+  .oreo-pie .card-thumbnail::before {
+    background-position: 6px -62px;
+    background-size: 270px;
+  }
+
+  .natural-mosquito .card-thumbnail::before {
+    background-position: -19px -54px;
+    background-size: 300px;
+  }
+
+  .grab-n-go .card-thumbnail::before {
+    background-position: -30px -58px;
+    background-size: 320px;
+  }
+
+  .motivation-alive .card-thumbnail::before {
+    background-position: 3px -32px;
+    background-size: 270px;
+  }
+
+  .workout-results .card-thumbnail::before {
+    background-position: -12px -43px;
+    background-size: 285px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card .card-content .subtitle {
+    font-size: 18px;
+  }
+
+  .card .card-information .author a {
+    font-size: 18px;
+  }
+
+  .card .card-information .author a:last-of-type {
+    display: inline;
+    margin-left: 0px;
+  }
+
+  .motivation-alive .card-information {
+    margin-top: 3px;
+  }
+
+  .starbucks .card-information .author a:last-of-type,
+  .oreo-pie .card-information .author a:last-of-type,
+  .workout-results .card-information .author a:last-of-type {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .starbucks .card-thumbnail::before {
+    background-position: -6px -44px;
+  }
+
+  .oreo-pie .card-thumbnail::before {
+    background-position: -1px -81px;
+    background-size: 380px;
+  }
+
+  .natural-mosquito .card-thumbnail::before {
+    background-position: -19px -125px;
+    background-size: 400px;
+  }
+
+  .grab-n-go .card-thumbnail::before {
+    background-position: -30px -95px;
+    background-size: 410px;
+  }
+
+  .motivation-alive .card-thumbnail::before {
+    background-position: 2px -68px;
+    background-size: 380px;
+  }
+
+  .workout-results .card-thumbnail::before {
+    background-position: -10px -54px;
+    background-size: 390px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .title-card {
+    width: 74%;
+  }
+
+  .card {
+    width: 24%;
+  }
+}
+
+
