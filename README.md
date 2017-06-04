@@ -32,7 +32,7 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
 - Setup Features
   - ~~Additional Dropdowns~~
   - ~~Multiple Pages~~
-  - Home Page
+  - ~~Home Page~~
   - Articles
   - Social Media
   - Search
