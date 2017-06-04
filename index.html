@@ -8,12 +8,18 @@
     <link rel='stylesheet' href='css/style.css'>
     <link rel='stylesheet' href='css/header.css'>
     <link rel='stylesheet' href='css/home_page.css'>
+    <link rel='stylesheet' href='css/card.css'>
+    <link rel='stylesheet' href='css/responsive_card.css'>
     <link rel='stylesheet' href='css/navigation.css'>
     <link rel='stylesheet' href='css/responsive_navigation.css'>
     <link rel='stylesheet' href='css/search.css'>
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel='stylesheet' href='css/font-awesome/css/font-awesome.min.css'>
 
     <title>A New Spoon</title>
   </head>
@@ -35,7 +41,6 @@
           <li class='home active'><a href='index.html'>Home</a></li>
           <li class='spoon_university children'>
             <a href='html/spoon_university.html'>Spoon University <span class='count'>4</span></a>
-
             <ul>
               <li><a href='#'>Recipes</a></li>
               <li><a href='#'>Lifestyle</a></li>
@@ -47,7 +52,7 @@
           <li class='healthier children'>
             <a href='html/healthier.html'>Healthier <span class='count'>2</span></a>
             <ul>
-              <li><a href='#'>Workouts</a></li>
+              <li><a href='#'>Excersise</a></li>
               <li><a href='#'>Lifestyle</a></li>
               <li><a href='#'>Diets</a></li>
             </ul>
@@ -64,10 +69,83 @@
             </ul>
           </li>
         </ul>
+        <ul>
+          <li class='navigation-label'>Contribute</li>
+          <li class='action-button'><a href='#'>Contribute :D</a></li>
+        </ul>
       </nav>
 
       <section class='content-wrapper'>
-        <h1>Home Page</h1>
+        <article class='article-section'>
+          <div class='title-card'>
+            <span class='title'>Newest Stories</span>
+            <a class='more' href='#'>More <i class='fa fa-angle-right'></i></a>
+          </div>
+          <section class='card grab-n-go spoon-university'>
+            <div class='card-thumbnail'>
+              <div class='date'>
+                <div class='day'>31</div>
+                <div class='month'>May</div>
+              </div>
+              <img src='https://s3.amazonaws.com/secretsaucefiles/photos/images/000/159/682/medium/DSC_9948_edit.jpg?1492997475'>
+            </div>
+            <div class='card-content'>
+              <div class='category'>Recipe</div>
+              <p class='title'>13 Grab'n'Go breakfasts that make busy weeks easier</p>
+              <p class='subtitle'>Cheers to never skipping breakfast again.</p>
+              <p class='description'>These quick grab'n'go breakfast will help maximize efficiency and minimize chaos during your morning routine. Don't ever skip out on breakfast again.</p>
+              <div class='card-information'>
+                <span class='author'>
+                  <i class='fa fa-pencil fa-flip-horizontal'></i>
+                  <a href='#'>Kate Donald</a> at <a href=''>St. Louis University</a>
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class='card motivation-alive healthier'>
+            <div class='card-thumbnail'>
+              <div class='date'>
+                <div class='day'>27</div>
+                <div class='month'>May</div>
+              </div>
+              <img src='https://s3.amazonaws.com/secretsaucefiles/photos/images/000/163/881/medium/IMG_5239.jpg?1495907590'>
+            </div>
+            <div class='card-content'>
+              <div class='category'>Lifestyle</div>
+              <p class='title'>How to keep motivation alive this summer</p>
+              <p class='medium-subtitle'>Because there is such a thing as too much RnR</p>
+              <p class='description'>After finals this summer for most of gonna be some much needed RnR. Counting off the times we slept on our textbooks studying. Some of us also need motivation to keep the momentum alive.</p>
+              <div class='card-information'>
+                <span class='author'>
+                  <i class='fa fa-pencil fa-flip-horizontal'></i>
+                  <a href='#'>Grace DeLucia</a> at <a href='#'>St. Edwards University</a>
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class='card workout-results healthier'>
+            <div class='card-thumbnail'>
+              <div class='date'>
+                <div class='day'>25</div>
+                <div class='month'>May</div>
+              </div>
+              <img src='https://s3.amazonaws.com/secretsaucefiles/photos/images/000/140/888/medium/Screen_Shot_2017-02-22_at_4.35.50_PM.png?1488389979'>
+            </div>
+            <div class='card-content'>
+              <div class='category'>Excersise</div>
+              <p class='title'>Tabata: Less Excersise, More Results</p>
+              <p class='subtitle'>Sometimes less is more</p>
+              <p class='description'>Ever wanted to have more results with less exercise? With tabata this dream can come true. Developed by Dr. Izumi Tabata this high tensity interval training will show results.</p>
+              <div class='card-information'>
+                <span class='author'>
+                  <i class='fa fa-pencil fa-flip-horizontal'></i>
+                  <a href='#'>Brieanna Miklaucic</a> at <a href='#'>Queens University</a>
+                </span>
+              </div>
+            </div>
+          </section>
+        </article>
+
       </section>
     </main>
   </body>

@@ -1,7 +1,35 @@
 /* Responsive navigation */
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+  .navigation, .top-bar {
+    position: absolute;
+  }
+
+  .search-bar form {
+    margin: -5px 0 -15px 0;
+  }
+
+  .navigation ul .home {
+    margin-top: -8px;
+  }
+
+  .navigation ul:last-child .navigation-label {
+    margin-top: -18px;
+  }
+
+  .navigation .action-button {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px) {
+  .navigation {
+    height: 100%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navigation {
-    position: relative;
+    position: fixed;
     float: left;
     top: auto;
     width: 110px;
@@ -94,6 +122,10 @@
     background-color: #33383e;
   }
 
+  .navigation .action-button a {
+    margin: 1em 10% 0;
+  }
+
   .children {
     position: relative;
   }
@@ -104,7 +136,7 @@
     left: 100%;
     width: 160px;
     padding: 0 2px 10px rgba(0, 0, 0, 0.3);
-   }
+  }
 
   .children ul a {
     text-align: left;
@@ -167,9 +199,19 @@
     box-shadow: none;
   }
 
+  .navigation .action-button a {
+    margin: 0 18px;
+  }
+
   .children > ul {
     width: 100%;
     z-index: 1;
+  }
+
+  .navigation .children.hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
   }
 
   .children ul a {

@@ -1,0 +1,54 @@
+/* Responsive Styles for cards */
+@media only screen and (orientation: landscape) and (max-width: 700px) {
+  .card {
+    width: 48%;
+    display: inline-block;
+    transition: display 1500ms ease-in;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 48%;
+    display: inline-block;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    margin: 5px 0 5px 5px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1178px) {
+  .card {
+    width: 410px;
+    height: 395px;
+    margin: 8px;
+  }
+
+  .card:hover {
+    -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover .description {
+    max-height: 100px;
+    opacity: 1;
+  }
+
+  .card .card-content .title {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .card .card-content .subtitle {
+    font-size: 16px;
+  }
+}
+
+
