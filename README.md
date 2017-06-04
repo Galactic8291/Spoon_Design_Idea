@@ -35,6 +35,7 @@ Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
   - ~~Additional Dropdowns~~
   - ~~Multiple Pages~~
   - ~~Home Page~~
+  - Update Card Styling (Working progress)
   - Articles
   - Social Media
   - Search
