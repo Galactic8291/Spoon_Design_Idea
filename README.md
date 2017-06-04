@@ -5,6 +5,8 @@ Unfortunately it took forever to figure out the kinks and what-ifs so no one rea
 
 Also this has been delayed previously twice now due to unforeseen life problems.
 
+Not as polished as I would like it since my css skills need work. But things are coming together I think
+
 Feel free to spread the word of this redesign.
 
 Rule 1): DO NOT GET AHEAD OF YOURSELF
