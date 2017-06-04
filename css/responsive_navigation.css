@@ -1,4 +1,32 @@
 /* Responsive navigation */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  .navigation, .top-bar {
+    position: absolute;
+  }
+  
+  .search-bar form {
+    margin: -5px 0 -15px 0;
+  }
+
+  .navigation ul .home {
+    margin-top: -8px;
+  }
+
+  .navigation ul:last-child .navigation-label {
+    margin-top: -18px;
+  }
+
+  .navigation .action-button {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px) {
+  .navigation {
+    height: 100%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navigation {
     position: fixed;
