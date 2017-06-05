@@ -1,45 +1,8 @@
-# A New Spoon
+# Spoon Design Numero Uno
 
-This project is step one of a long saga of projects. The main goal is to redesign SpoonUniversity into a clearer format and cooler setup.
-Unfortunately it took forever to figure out the kinks and what-ifs so no one really knows about it
+Okay so after a long time being spent of at looking at this. I realized to go back to the drawing boards and work on few things that I have learned in my development cycle. This project was fun but I demand better standards. And alot more specificity in the details. I feel this was a good start and have decided to deprecate this good lad of a repo. I have moved to a new spot along with the name so its easy to find https://github.com/TheGalacticNinja/A_New_Spoon. There made it easier!!!
 
-Also this has been delayed previously twice now due to unforeseen life problems.
+Also the tasklist on my readme has been abandoned. Feel free to hit me up in the issues if you wanna be in on the tasklist.
 
-Not as polished as I would like it since my css skills need work. But things are coming together I think
-
-Feel free to spread the word of this redesign.
-
-Rule 1): DO NOT GET AHEAD OF YOURSELF
-
-Rule 2): DO NOT FORGET TO UPDATE TASK
-
-Rule 3): DO NOT MAKE CHANGES IN MASTER EVER AGAIN
-
-## TODO LIST
-
-- ~~Setup Basic Example Of Navigation (template)~~
-  - ~~Setup Topbar~~
-  - ~~Setup Sidebar~~
-- ~~Seperate CSS into cleaner parts~~
-- ~~Setup Mobile Experience~~
-  - ~~Header~~
-  - ~~Main Content~~
-  - ~~Navigation~~
-  - ~~Search~~
-- ~~Setup Responsive Experience~~
-  - ~~Header~~
-  - ~~Main Content~~
-  - ~~Sidebar~~
-  - ~~Search~~
-- Setup Features
-  - ~~Additional Dropdowns~~
-  - ~~Multiple Pages~~
-  - ~~Home Page~~
-  - Update Card Styling (Working progress)
-  - Articles
-  - Social Media
-  - Search
-- Setup Correct Colorscheme
-- Plan Next Step
-
-![alt-text](https://lolzombie.com/wp-content/uploads/2013/06/solo-chewie.jpg)
+Welp this is a final goodbye to a good Repo. 
+Rest in Github!
